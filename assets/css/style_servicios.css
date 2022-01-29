@@ -1,0 +1,181 @@
+:root {
+    --font-title: "Allison", serif;
+    --font-text: "Abel", cursive;
+    --font-subtitle: "Kaisei Tokumin", serif;
+    --primary-color: #ffd700;
+    --secund-color: #035f99;
+    --third-color: #e61010;
+    --color-letra: #eeeeee;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to right, #0000009c, #4343439c),
+      url("../img/textura-bg.jpg");
+  }
+
+  .header {
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    border: 0px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    height: 70px;
+  }
+
+  .container {
+    width: 50%;
+  }
+  
+  .title{
+
+    color: var(--primary-color);
+    display: inline;
+    font-family: var(--font-title);
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px var(--secund-color);
+  }
+
+  .navbar {
+    width: 50%;
+  }
+  
+  .navbar-items {
+    list-style: none;
+  }
+  
+  .navbar-item {
+    display: inline-block;
+    font-family: var(--font-text);
+    line-height: 70px;
+    margin: 0 15px;
+    text-align: left;
+    transition: all 300ms;
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #035f99;
+  }
+  
+  .navbar-item:hover {
+    text-decoration: underline;
+    text-shadow: 5px 5px 2px #035f99;
+    transform: scale(1.3);
+  }
+
+  .contenedor_servicio{
+    font-family: var(--font-subtitle);
+    color: var(--color-letra);
+    width: 100%;
+    height: 700;
+    display: flex;  
+    margin: 20px auto;
+  }
+
+  .contenedor_servicio p{
+    font-family: var(--font-text);
+    color: var(--color-letra);
+    width: 80%;
+    display: flex;  
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  .contenedor_izquierda,
+  .contenedor_centro,
+  .contenedor_derecha{
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      
+   background-size: cover;
+      margin: 4px;
+  }
+
+  .contenedor_lista_servicios{
+     width: 100%;
+     height: 100%;
+     text-align: center;
+  }
+
+  .Contenedor-servicio-uno,
+  .Contenedor-servicio-dos{
+      width: 100%;
+  }
+
+  .Contenedor-servicio-uno h1,
+  .Contenedor-servicio-dos h1{
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .Contenedor-servicio-uno img,
+  .Contenedor-servicio-dos img{
+      display: block;
+      margin: auto;
+      width: 150px;
+      height: 200px;
+      margin-top: 5px; 
+      
+      text-align: center;
+
+      background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+
+  .Contenedor-servicio-uno hr,
+  .Contenedor-servicio-dos hr{
+    width: 220px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    background:-webkit-linear-gradient(left,#035f99,#083653);
+        }
+
+  .btn-contactenos{
+      display: block;
+      margin: 15px auto;
+      width: 150px;
+      height: 35px;
+      color:var(--color-letra);
+      text-align: center; 
+      padding: 3px;
+      font-size: 20px;
+      font-weight: bold;
+    
+      border-radius: 77px;
+      background:-webkit-linear-gradient(left,#035f99,#083653);
+      box-shadow: 1px 1px 3px;
+  
+      text-decoration: none;
+      transition: all 300ms;
+      margin-bottom: 40px;
+  }
+
+  .btn-contactenos:hover {
+    background-color: rgb(30, 190, 123);
+    color: #000;
+    
+    box-shadow: 2px 2px 3px var(--secund-color);
+  }
+
+ 
+  
+
